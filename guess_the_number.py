@@ -1,13 +1,9 @@
 import random
-print("Enter minimum number of Range: ")
 
-min_num = int(input())
+min_num = int(input("Enter minimum number of Rage:"))
 
-print("Enter maximum number of Rage:")
+max_num = int(input("Enter maximum number of Rage:"))
 
-max_num = int(input())
-
-print(min_num + max_num)
 
 guess_number = random.randrange(min_num,max_num,1)
 
